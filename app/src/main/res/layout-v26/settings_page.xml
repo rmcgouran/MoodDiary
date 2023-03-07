@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLight"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/setting_to_home"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_horizontal"
+            android:paddingTop="18dp"
+            android:paddingBottom="6dp"
+            android:text="@string/settings"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <ImageButton
+            android:id="@+id/setting_to_home"
+            android:layout_width="50dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:baselineAlignBottom="true"
+            android:cropToPadding="true"
+            android:src="@android:drawable/ic_delete" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:alwaysDrawnWithCache="false"
+        android:background="@color/primaryLight"
+        android:orientation="horizontal"
+        tools:visibility="visible">
+
+        <Switch
+            android:id="@+id/reminder_switch"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:checked="true"
+            android:drawableStart="@drawable/baseline_notifications_white_36"
+            android:drawableLeft="@drawable/baseline_notifications_white_36"
+            android:drawablePadding="8dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:text="@string/daily_reminder"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textOff="@string/no"
+            android:textOn="@string/yes"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:theme="@style/SCBSwitch"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Button
+            android:id="@+id/notif_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/startRecording"
+            android:gravity="center"
+            android:hint="@string/select_time"
+            android:onClick="setDate"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/outline_back"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/remove_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:autoSizeTextType="uniform"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/baseline_delete_black_36"
+            android:drawableRight="@drawable/baseline_delete_black_36"
+            android:drawablePadding="20dp"
+            android:drawableTint="@android:color/white"
+            android:maxLines="1"
+            android:outlineAmbientShadowColor="@android:color/white"
+            android:outlineSpotShadowColor="@android:color/white"
+            android:paddingStart="35dp"
+            android:paddingLeft="35dp"
+            android:text="REMOVE YOUR PASSCODE"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:visibility="gone"
+            tools:targetApi="o" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/set_pass"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:autoSizeTextType="uniform"
+        android:background="@android:color/transparent"
+        android:baselineAligned="true"
+        android:drawableEnd="@drawable/plus"
+        android:drawableRight="@drawable/plus"
+        android:drawablePadding="20dp"
+        android:drawableTint="@android:color/white"
+        android:maxLines="1"
+        android:outlineAmbientShadowColor="@android:color/white"
+        android:text="@string/set_a_passcode"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/home_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="15dp"
+        android:autoSizeTextType="uniform"
+        android:visibility="gone"
+        android:background="@android:color/transparent"
+        android:drawableTint="@android:color/white"
+        android:maxLines="1"
+        android:onClick="ToHomePage"
+        android:outlineAmbientShadowColor="@android:color/white"
+        android:text="View home"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

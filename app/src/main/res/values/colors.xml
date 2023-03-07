@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryLight">#A2ACF8</color>
+    <color name="primaryDark">#424874</color>
+    <color name="accent">#095757</color>
+    <color name="stopRecording">#8292D9</color>
+    <color name="startRecording">#C5D9FF</color>
+    <color name="veryHappy">#FF6AD9</color>
+    <color name="happy">#9EFFB8</color>
+    <color name="okay">#FFC796</color>
+    <color name="sad">#A4C1FF</color>
+    <color name="angry">#FF8585</color>
+</resources>

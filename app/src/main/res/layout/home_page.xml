@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLight"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-4dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/lines_top_and_bottom"
+        android:drawableLeft="@drawable/baseline_home_white_36"
+        android:drawableRight="@drawable/baseline_home_white_36"
+        android:fontFamily="sans-serif-thin"
+        android:text="Home Page"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/home_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-4dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/lines_top_and_bottom"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="mood"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="47sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/home_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/lines_top_and_bottom"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Record A Mood"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="47sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/home_btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/lines_top_and_bottom"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="View Diary"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="47sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/home_btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:background="@drawable/lines_top_and_bottom"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Mood Tracker"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="47sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/home_btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.195"
+        android:background="@drawable/lines_top_and_bottom"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Settings"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="47sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

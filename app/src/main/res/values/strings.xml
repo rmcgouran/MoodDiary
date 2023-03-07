@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Mood Diary</string>
+    <string name="release">SAVE</string>
+    <string name="start_writing">Look after yourself</string>
+    <string name="v2m"></string>
+    <string name="tab_text_1">About Me</string>
+    <string name="tab_text_2">Diary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_playing">Not Playing</string>
+    <string name="todo">TODO</string>
+    <string name="supporting_text"></string>
+    <string name="text_entry">What you wrote</string>
+    <string name="load_entry">load</string>
+    <string name="asking_feelings">What are you feeling?</string>
+    <string name="veryHappy">Very Happy</string>
+    <string name="happy">Happy</string>
+    <string name="okay">Okay</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="veryHappy_text">It\'s great to hear that you had an amazing day!</string>
+    <string name="happy_text">It\'s great to hear that you had a good day!</string>
+    <string name="okay_text">It\'s okay to be okay</string>
+    <string name="sad_text">It\'s unfortunate to hear that.</string>
+    <string name="angry_text">It\'s normal to be angry sometimes.</string>
+    <string name="splash_title_name">Mood Diary</string>
+    <string name="text_reader">Text Reader</string>
+    <string name="settings">Settings</string>
+    <string name="daily_reminder">Daily Reminder:</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="inputting_title">Give your note a title.</string>
+    <string name="select_time">Select Time</string>
+    <string name="set_a_passcode">Set a Pin</string>
+    <string name="enter">Enter</string>
+    <string name="para_label_text"></string>
+</resources>
