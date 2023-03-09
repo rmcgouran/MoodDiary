@@ -17,7 +17,7 @@ import java.io.IOException;
 public class moodActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     private EditText inputFeelings;
     private EditText inputTitle;
-    private static final String[] paths = {"Text", "voice"};
+    private static final String[] paths = {"Text", "Voice"};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

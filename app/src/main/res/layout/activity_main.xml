@@ -46,7 +46,7 @@
                 android:layout_centerVertical="true"
                 android:layout_gravity="end"
                 android:backgroundTint="@color/primaryLight"
-                android:onClick="SettingsPage"
+                android:onClick="settingsPage"
                 android:padding="9dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/baseline_settings_white_36"

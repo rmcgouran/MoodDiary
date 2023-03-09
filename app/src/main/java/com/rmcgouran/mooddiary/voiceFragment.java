@@ -218,9 +218,9 @@ public class voiceFragment extends Fragment implements voiceListAdapter.onItemLi
 
 
 
-//STOP voice
+//STOP Voice
     private void stopvoice() {
-        //Stop voice
+        //Stop Voice
         playerHeader.setText("Paused");
         isPlaying = false;
         playBtn.setImageResource(R.drawable.player_play_btn);
@@ -228,7 +228,7 @@ public class voiceFragment extends Fragment implements voiceListAdapter.onItemLi
         seekbarHandler.removeCallbacks(updateSeekbar);
     }
 
-//PLAY voice
+//PLAY Voice
     private void playvoice(final File fileToPlay) {
 
         mediaPlayer = new MediaPlayer();
@@ -250,7 +250,7 @@ public class voiceFragment extends Fragment implements voiceListAdapter.onItemLi
         playerFilename.setText(fileToPlay.getName());
         playerHeader.setText("Playing");
 
-        //Play voice
+        //Play Voice
         isPlaying = true;
 
         mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {

@@ -31,9 +31,9 @@ public class voicePage extends AppCompatActivity implements View.OnClickListener
     private ImageButton recordBtn;
     private Chronometer timer;
     private TextView filenameText;
-    private Spinner choosemoodSpinner2;
+    private Spinner chooseMoodSpinner2;
     private EditText inputTitle;
-    private static final String[] paths = {"voice", "Text"};
+    private static final String[] paths = {"Voice", "Text"};
     private Boolean isRecording = false;
     private String recordPermission = Manifest.permission.RECORD_AUDIO;
     private int PERMISSION_CODE = 21;
@@ -48,11 +48,11 @@ public class voicePage extends AppCompatActivity implements View.OnClickListener
         setContentView(R.layout.mood_voice);
 
 
-        // Initialising things
+        // Initialising
         recordBtn = (ImageButton) findViewById(R.id.record_btn);
         timer = (Chronometer) findViewById(R.id.record_timer);
         filenameText = (TextView) findViewById(R.id.record_filename);
-        choosemoodSpinner2 = (Spinner) findViewById(R.id.mood_spinner_voice);
+        chooseMoodSpinner2 = (Spinner) findViewById(R.id.mood_spinner_voice);
         inputTitle = (EditText) findViewById(R.id.input_title_voice);
 
         recordBtn.setOnClickListener(new View.OnClickListener() {
@@ -88,8 +88,8 @@ public class voicePage extends AppCompatActivity implements View.OnClickListener
                 R.layout.simple_spinner_item_custom, paths);
 
         adapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item_custom);
-        choosemoodSpinner2.setAdapter(adapter);
-        choosemoodSpinner2.setOnItemSelectedListener(this);
+        chooseMoodSpinner2.setAdapter(adapter);
+        chooseMoodSpinner2.setOnItemSelectedListener(this);
 
     }
 
